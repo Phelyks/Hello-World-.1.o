@@ -236,7 +236,7 @@ p {
 .content1 {
     margin: 0px 0px 20px 0px;
     padding: 0px 0px 30px 0px;
-    height: 900px;
+    height: 500px;
 }
 
 .content2 {
@@ -244,6 +244,14 @@ p {
     padding: 50px 0px 200px 0px;
     background-color: black;
     color: whitesmoke;
+    height: 600px;
+}
+
+.content3 {
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 30px 0px;
+    height: 900px;
+
 }
 
 #heading {
@@ -266,7 +274,7 @@ p {
 }
 .span {
     width: 100%;
-    background-color: rgba(245, 245, 245, 0.94);
+    background-color: rgba(245, 245, 245, 0.6);
     color: black;
     display: block;
 }
