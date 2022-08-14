@@ -1,0 +1,126 @@
+* {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 5px 0px;
+    
+}
+header {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+body {
+    font-family: 'Times New Roman';
+    font-size: large;
+    background-color: rgba(127, 255, 212, 0.464);
+}
+
+footer {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+h1,h2.header {
+    color: white;
+    background-color: rgba(3, 11, 9, 0.542);
+    text-align: center;
+    font-size: 5vw;
+    padding: 0px 5px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+ul.nav {
+    color: white;
+    display: block;
+    background-color: black;
+}
+
+ul.nav {
+    overflow: hidden;
+    float: left;
+    display: block;
+    list-style-type: none;
+    
+}
+li {
+    float: left;
+    display: block;
+}
+
+ul.onpage {
+    color: black;
+    margin: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 25px;
+}
+li.onpage {
+    color: black;
+}
+
+p {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 5px 0px 5px;
+}
+
+p.header {
+    font-size: 3vw;
+}
+
+a:link{
+    color:blue;
+  }
+  a:visited{
+    color:purple;
+  }
+  a:hover{
+    color:orange;
+  }
+  a:focus{
+    color:green;
+  }
+  a:active{
+    color:red;
+  }
+
+  .pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    color: black;
+    font-weight: bolder;
+    background-color: whitesmoke;
+    padding: 10px;
+    font-family: 'Times New Roman';
+}
+
+.span {
+    color:red;
+    padding-left:5px;
+    padding-right:5px;
+    background:rgba(128, 128, 128, 0.171);
+    font-weight:bold;
+}
+
+table {width:100%}
+
+th {text-align:left;}
+th,td {
+    background:rgb(224, 240, 191);
+    border:2px solid thistle;
+    border-radius: 15px;
+    padding-left:25px;
+}
+
+.div1 {
+    background-color: rgba(94, 92, 92, 0.333);
+    padding: 5px;
+}
+
+.div2 {
+    background-color: white;
+    padding: 5px;
+    padding-left: 15px;
+    font-weight: bolder;
+    color: red;
+}
