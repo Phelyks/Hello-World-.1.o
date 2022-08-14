@@ -1,0 +1,1 @@
+This are the steps I used to create this website
