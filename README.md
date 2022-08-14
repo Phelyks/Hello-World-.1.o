@@ -1,1 +1,1 @@
-This are the steps I used to create this website
+This are the steps I used to create this website    
