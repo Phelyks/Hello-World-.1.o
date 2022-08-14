@@ -260,7 +260,7 @@ p {
     margin: 0px 0px 20px 0px;
     padding: 50px 0px 200px 0px;
     background-color: black;
-    color: whitesmoke;
+    color: white;
     height: 300px;
 }
 
@@ -290,3 +290,42 @@ p {
     color: black;
     display: block;
 }
+
+.webdesign {
+    background-blend-mode: darken;
+    background-size: contain;
+    background-image: url(../images/web\ design.jpeg);
+}
+
+.androidapps {
+    background-blend-mode: darken;
+    background-size: contain;
+    background-image: url(../images/android\ apps.png);
+}
+
+.seo {
+    background-blend-mode: darken;
+    background-size: contain;
+    background-image: url(../images/seo.png);
+}
+
+
+.smm {
+    background-blend-mode: darken;
+    background-size: contain;
+    background-image: url(../images/social\ media\ management.png);
+}
+
+.webcopy {
+    background-blend-mode: darken;
+    background-size: contain;
+    background-image: url(../images/web\ copy.png);
+}
+
+
+.videoediting {
+    background-blend-mode: darken;
+    background-size: contain;
+    background-image: url(../images/video\ editing.png);
+}
+
