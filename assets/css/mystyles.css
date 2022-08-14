@@ -12,13 +12,17 @@ header {
 body {
     font-family: 'Times New Roman';
     font-size: large;
-    background-color: rgba(127, 255, 212, 0.464);
+    background-color: rgba(127, 255, 212, 0.326);
     /* background image insert */
     background-image: url(../images/favicon.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-blend-mode: soft-light;
     /* .......... */
+}
+
+.square {
+    background-color: rgba(127, 255, 212, 0.753);
 }
 
 /* 
@@ -196,4 +200,8 @@ iframe {
     font-family: sans-serif;
     border: 1px dotted black;
 
+}
+
+p {
+    text-align: justify;
 }
