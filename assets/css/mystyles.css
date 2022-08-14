@@ -42,12 +42,12 @@ footer {
 }
 
 h1,h2.header {
-    color: rgb(29, 21, 21);
-    background-color: rgba(8, 97, 87, 0.371);
+    color: wheat;
     text-align: center;
     font-size: 5vw;
     padding: 0px 5px 0px 0px;
     margin: 0px 0px 0px 0px;
+    text-decoration: underline;
 }
 
 /* h1.header {
@@ -184,7 +184,16 @@ th,td {
     background:rgb(224, 240, 191);
     border:2px solid thistle;
     border-radius: 15px;
-    padding-left:25px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    height: 300px;
+    width: max-content;
+    text-align: center;
+    color: black;
+    font-size: 2vw;
+    font-weight: bolder;
+    word-wrap: break-word;
+    background-clip: content-box;
 }
 
 .div1 {
@@ -254,4 +263,10 @@ p {
     text-decoration: underline;
     text-decoration-style: dashed;
 
+}
+.span {
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.94);
+    color: black;
+    display: block;
 }
