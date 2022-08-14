@@ -13,7 +13,23 @@ body {
     font-family: 'Times New Roman';
     font-size: large;
     background-color: rgba(127, 255, 212, 0.464);
+    /* background image insert */
+    background-image: url(../images/favicon.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    /* .......... */
 }
+
+/* 
+image background to body
+body {
+                background-image: url("img_tree.png");
+                background-repeat: no-repeat;
+                background-position: right top;
+                background-attachment: fixed;
+              }
+*/
 
 footer {
     margin: 0px 0px 0px 0px;
@@ -44,7 +60,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(62, 49, 49, 0.51);
+    background-color: rgba(21, 12, 12, 0.51);
 }
 
 li {
@@ -65,6 +81,7 @@ li a {
     display: block;
     color: white;
     text-decoration: none;
+    font-weight: bolder;
 }
 
 li a:hover {
